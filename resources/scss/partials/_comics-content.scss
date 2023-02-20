@@ -1,0 +1,80 @@
+.comics_content {
+    background-color: rgb(28, 28, 28);
+
+
+    .main_container {
+        width: 80vw;
+        margin: 0 auto;
+        padding: 2rem 0;
+        position: relative;
+
+        .current_series_label {
+            background-color: rgb(2, 130, 249);
+            width: fit-content;
+            color: white;
+            padding: .3rem 1.5rem;
+            position: absolute;
+            top: -20px;
+            left: 0;
+        }
+
+        .card_container {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+
+            a {
+                margin: 0 .5rem 2rem .5rem;
+
+                .my_card {
+                    width: calc((80vw / 6) - 1rem);
+
+                    .thumb {
+
+                        img {
+                            object-fit: cover;
+                            width: 100%;
+                            height: calc((80vw / 6) - 1rem);
+                            object-position: top;
+                            display: block;
+
+                            &:hover {
+                                filter: brightness(50%);
+                            }
+                        }
+                    }
+
+                    h4 {
+                        margin-top: 1rem;
+                        text-transform: uppercase;
+                        color: white;
+                        font-size: .8rem;
+                    }
+                }
+            }
+
+        }
+
+        .button_container {
+            display: flex;
+            justify-content: center;
+
+            button {
+                border: 2px solid rgb(2, 130, 249);
+                background-color: rgb(2, 130, 249);
+                padding: .2rem 2rem;
+                cursor: pointer;
+
+                a {
+                    color: white;
+                    font-weight: 500;
+                    font-size: .7rem;
+                }
+
+                &:hover {
+                    background-color: transparent;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,95 @@
+.detail_comic {
+
+    .thumb_row {
+        height: 4rem;
+        background-color: rgb(2, 130, 249);
+        position: relative;
+
+        .thumb_container {
+            position: absolute;
+            bottom: 1rem;
+
+            .thumb {
+                width: 80vw;
+                margin: 0 auto;
+
+                img {
+                    width: 15%;
+                    border: 2px solid white;
+                }
+            }
+        }
+    }
+
+    .main_container {
+
+        .primary_section {
+            background-color: white;
+
+            .center {
+                width: 80vw;
+                margin: 0 auto;
+
+                .comic_title {
+                    color: rgb(72, 133, 177);
+                }
+
+                .price_row {
+                    background-color: rgb(85, 186, 89);
+
+                    h5 {
+                        color: rgb(170, 249, 149);
+                    }
+
+                    .price {
+                        color: white;
+                    }
+
+                    .price_border_bottom {
+                        border-bottom: 2px solid rgb(87, 142, 90);
+                    }
+
+                    .price_border_right {
+                        border-right: 2px solid rgb(87, 142, 90);
+                    }
+                }
+
+                .comic_description {
+                    color: rgb(114, 106, 129);
+                }
+            }
+        }
+
+        .secondary_section {
+            background-color: rgb(246, 246, 246);
+            border-top: 2px solid rgb(230, 230, 230);
+            border-bottom: 2px solid rgb(230, 230, 230);
+
+            .center {
+                width: 80vw;
+                margin: 0 auto;
+            }
+
+            .border_bottom {
+                border-bottom: 2px solid rgb(230, 230, 230);
+
+                span {
+                    color: rgb(127, 202, 241);
+                }
+            }
+
+            .action {
+                color: rgb(127, 202, 241);
+            }
+
+            .comic_description {
+                color: rgb(114, 106, 129);
+            }
+
+            h3,
+            h5 {
+                color: rgb(64, 118, 152);
+            }
+        }
+    }
+}

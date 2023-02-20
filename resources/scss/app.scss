@@ -1,0 +1,52 @@
+@use 'partials/header';
+@use 'partials/jumbotron';
+@use 'partials/comics-content';
+@use 'partials/details-comic';
+@use 'partials/footer';
+
+@import '~bootstrap/scss/bootstrap';
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background-color: rgb(46, 46, 46);
+}
+
+h1 {
+    font-size: 2em;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+h3 {
+    font-size: 1.33em;
+}
+
+h4 {
+    font-size: 1.17em;
+}
+
+h5 {
+    font-size: 1em;
+}
