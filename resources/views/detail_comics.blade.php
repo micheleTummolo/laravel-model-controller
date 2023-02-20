@@ -2,7 +2,7 @@
 
 @section('content')
 <main>
-    <div class="detail_comic">
+    <div class="detail_comic container-fluid">
         <div class="row thumb_row">
             <div class="col thumb_container">
                 <div class="thumb">
